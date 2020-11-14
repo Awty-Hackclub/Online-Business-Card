@@ -1,11 +1,9 @@
 import React from "react"
 
-function Title() {
+export default function Title(props) {
     return (
         <div className="title">
-          <h1>Create your business card</h1>
+          <h1>{props.content}</h1>
         </div>
     )
 }
-
-export default Title

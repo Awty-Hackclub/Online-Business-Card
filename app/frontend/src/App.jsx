@@ -8,7 +8,7 @@ import Submit from './Components/Submit'
 function App() {
   return (
     <div>
-      <Title />
+      <Title content="Create your business card"/>
       <div className = "contain">
         <CompName/>
         <Input platform="YouTube"/>
