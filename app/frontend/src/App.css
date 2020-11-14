@@ -24,7 +24,16 @@
   border: none;
   background-color: #373737;
   color: white;
-  height: 25px;
+  height: 35px;
   width: 110px;
   outline: none;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: #373737;
+  color: white;
 }
