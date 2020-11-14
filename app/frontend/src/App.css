@@ -164,13 +164,19 @@ input:focus {
   margin-right: auto;
   width: 40%;
   padding: 3px 2em 2em 2em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .column {
   display: flex;
 }
 .companyName {
   text-align: center;
-  color: white; /* placeholder color */
+  color: #e5e5e5; /* placeholder color */
 }
 .URLS {
   vertical-align: middle;
