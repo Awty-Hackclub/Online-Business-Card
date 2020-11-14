@@ -1,6 +1,8 @@
 import mysql.connector
 from mysql.connector import Error
 
+db = None
+
 
 def connect():
     try:
