@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, json
 import mysql.connector
 from mysql.connector import Error
 from nanoid import generate
@@ -33,7 +33,14 @@ def create():
 
 @app.route("/card", methods=["GET"])
 def card():
-    ...
+    id = request.args.get("id")
+    cursor.execute(f"SELECT * FROM Card WHERE id={id}")
+    row_headers = [x[0] for x in cursor.description]
+    result = cursor.fetchall()
+    json_data = []
+    for r in result:
+        json_data.append(dict(zip(row_headers, r)))
+    return json.dumps(json_data)
 
 
 if __name__ == "__main__":
