@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Card from "./Routes/Card";
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
           <App />
         </Route>
         <Route exact path="/card">
-          <Card />
+          <Card content = "Another Company"/>
         </Route>
       </Switch>
     </BrowserRouter>

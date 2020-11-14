@@ -126,3 +126,33 @@ body {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+.space {
+  height: 40px;
+}
+
+.card{
+  background-color: #373737;
+  height: 300px;
+  border-radius: 40px;
+  width: 650px;
+  text-align: center;
+  margin: auto;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.media {
+  background-color: #3F3F3F;
+  border-radius: 10px;
+  height: 40px;
+  width: 53%;
+  padding:0;
+  margin-left: 40px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+}
