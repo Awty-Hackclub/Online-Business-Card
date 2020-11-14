@@ -5,7 +5,10 @@ body {
 .title {
   color: white;
   text-align: center;
-  padding: 3em
+  border-bottom: solid;
+  text-align: center;
+  margin: auto;
+  width: 500px;
 }
 
 .label{
@@ -40,6 +43,7 @@ body {
 }
 
 .contain {
+  padding-top: 40px;
   text-align: center;
   margin: auto;
   width: 500px;
@@ -82,4 +86,17 @@ body {
   text-align: center;
   width: 20%;
   float: left;
+}
+
+.compName {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.compName:focus {
+  border: none;
 }

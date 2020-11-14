@@ -1,6 +1,7 @@
 import './App.css';
 import Input from './Components/Input'
 import Title from './Components/Title'
+import CompName from './Components/CompName'
 import Submit from './Components/Submit'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Title />
       <div className = "contain">
+        <CompName/>
         <Input platform="YouTube"/>
         <Input platform="Instagram"/>
         <Input platform="Twitter"/>
