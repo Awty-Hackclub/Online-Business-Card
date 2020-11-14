@@ -5,5 +5,5 @@ export default function Card() {
         <div>
             <Title content="example" />
         </div>
-    )
+    );
 }
