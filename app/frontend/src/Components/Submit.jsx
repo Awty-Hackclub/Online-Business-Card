@@ -3,7 +3,12 @@ import React from 'react'
 export default function Submit(){
     return(
         <div>
-            <button className="publish">Publish</button>
+            <input
+                className="publish" 
+                type = "submit" 
+                value ="Publish"
+                >
+            </input>
         </div>
     )
 }

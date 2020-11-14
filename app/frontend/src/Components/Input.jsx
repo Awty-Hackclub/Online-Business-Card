@@ -5,7 +5,11 @@ export default function Input(props) {
         <div>
             <div className="label">
                 <label className = "plat">{props.platform}</label>
-                <input className = "input" placeholder = "https://"></input>
+                <input
+                    className = "input"    
+                    placeholder = "https://" 
+                    maxlenght="2000">
+                </input>
             </div>
         </div>
     )

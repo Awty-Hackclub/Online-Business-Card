@@ -42,6 +42,12 @@ body {
   height: 37px;
 }
 
+.publish:focus {
+  border-radius: 0px;
+  background-color: white;
+  color: #373737;
+}
+
 .contain {
   padding-top: 40px;
   text-align: center;
@@ -89,6 +95,9 @@ body {
 }
 
 .compName {
+  overflow: hidden;
+  resize: none;
+  height: 100px;
   background-color: rgba(0, 0, 0, 0);
   outline: none;
   border: none;
