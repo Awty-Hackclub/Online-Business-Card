@@ -50,7 +50,14 @@ body {
 
 .input {
   width: 75%;
+  height: 75%;
   float: right;
+  border-radius: 5px;
+  background-color: #373737;
+}
+
+.input:hover {
+  border: 2px solid white;
 }
 
 .plat {
