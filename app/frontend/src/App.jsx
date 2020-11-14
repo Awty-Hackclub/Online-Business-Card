@@ -8,12 +8,14 @@ function App() {
   return (
     <div>
       <Title />
-      <Input platform="YouTube"/>
-      <Input platform="Instagram"/>
-      <Input platform="Twitter"/>
-      <Input platform="FaceBook"/>
-      <Submit/>
-      <Footer />
+      <div className = "contain">
+        <Input platform="YouTube"/>
+        <Input platform="Instagram"/>
+        <Input platform="Twitter"/>
+        <Input platform="FaceBook"/>
+        <Submit/>
+        <Footer />
+      </div>
     </div>
   );
 }
