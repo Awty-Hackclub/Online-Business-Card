@@ -1,3 +1,7 @@
+body {
+  background-color: #373737;
+}
+
 .title {
   text-align: center;
   padding: 3em
@@ -12,10 +16,6 @@
   margin: 20px 0 20px 0;
   box-sizing: border-box;
   padding: 10px;
-}
-
-.contain {
-  
 }
 
 .publish {
