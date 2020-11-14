@@ -1,5 +1,5 @@
 body {
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 .title {
@@ -11,9 +11,9 @@ body {
   width: 500px;
 }
 
-.label{
+.label {
   border-radius: 13px;
-  background-color:#373737;
+  background-color: #373737;
   color: white;
   height: 50px;
   width: 500px;
@@ -80,7 +80,8 @@ body {
   transition: 0.2s;
 }
 
-.input:hover, input:focus {
+.input:hover,
+input:focus {
   border-radius: 5px;
   border: solid white;
 }
@@ -131,7 +132,7 @@ body {
   height: 40px;
 }
 
-.card{
+.card {
   background-color: #373737;
   height: 340px;
   border-radius: 40px;
@@ -147,7 +148,7 @@ body {
 }
 
 .media {
-  background-color: #3F3F3F;
+  background-color: #3f3f3f;
   border-radius: 10px;
   height: 3em;
   width: 350px;
