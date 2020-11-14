@@ -1,0 +1,2 @@
+Our URL schema (example);
+localhost:8000/card?id=2a976364-3f95-4f0a-a68c-d17367f0bf61
