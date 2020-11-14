@@ -1,9 +1,8 @@
 from flask import Flask, request, jsonify
 import mysql.connector
+from db import connect
 
-db = mysql.connector.connect(host="root")
-
-print(db)
+connect()
 
 app = Flask(__name__)
 
