@@ -3,7 +3,7 @@ import React from 'react'
 export default function Submit(){
     return(
         <div>
-            <button>Submit</button>
+            <button className="submit">Submit</button>
         </div>
     )
 }

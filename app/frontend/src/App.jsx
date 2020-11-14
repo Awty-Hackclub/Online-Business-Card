@@ -14,8 +14,8 @@ function App() {
         <Input platform="Twitter"/>
         <Input platform="FaceBook"/>
         <Submit/>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
