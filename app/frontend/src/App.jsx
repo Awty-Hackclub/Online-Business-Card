@@ -12,10 +12,6 @@ import {
 function App() {
   return (
     <Router>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/card">card</Link></li>
-      </ul>
         <Switch>
           <Route exact path="/">
             <HomeApp/>
