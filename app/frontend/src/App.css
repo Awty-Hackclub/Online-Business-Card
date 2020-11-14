@@ -58,22 +58,26 @@ body {
 }
 
 .input {
+  font-size: 16px;
   width: 75%;
   height: 75%;
   float: right;
-  border-radius: 5px;
   background-color: #373737;
   outline: none;
-  border: solid #19191a;
+  border: solid rgba(0, 0, 0, 0);
+  border-bottom: solid #c9c9c9;
   color: white;
   transition: 0.2s;
 }
 
 .input:hover, input:focus {
-  border: 2px solid white;
+  border-radius: 5px;
+  border: solid white;
 }
 
 .plat {
+  font-size: 20px;
+  font-weight: bold;
   padding-top: 2px;
   text-align: center;
   width: 20%;
