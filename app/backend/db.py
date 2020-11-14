@@ -11,6 +11,3 @@ def connect():
             print("connection achieved!")
     except Error as e:
         print(f"error: {e}")
-    finally:
-        if db is not None and db.is_connected():
-            db.close()
