@@ -37,6 +37,7 @@ body {
 }
 
 .footer {
+  position: fixed;
   margin-top: 30px;
   padding: 15px;
   box-sizing: border-box;
