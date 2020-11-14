@@ -2,10 +2,10 @@ import React from "react";
 
 function Card() {
   return (
-    <div class="card">
-      <h3 class="companyName">Company Name</h3>
-      <div class="column">
-        <div class="URLS">
+    <div className="card">
+      <h1 className="companyName">Company Name</h1>
+      <div className="column">
+        <div className="URLS">
           <ul>
             <li>Twitter</li>
             <li>Instagram</li>
@@ -13,7 +13,7 @@ function Card() {
             <li>LinkedIN</li>
           </ul>
         </div>
-        <div class="description">
+        <div className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
