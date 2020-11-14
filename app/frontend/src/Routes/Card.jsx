@@ -10,9 +10,13 @@ export default function Card(props) {
             <div className = "space"></div>
             <div className = "card">
                 <h1 className = "name">{props.content}</h1>
-                <Media platform = "youtube" link = "http://youtube.com"/>
-                <Media platform = "instagram" link = "http://instagram.com"/>
-                <Media platform = "twitter" link = "http://twitter.com"/>
+                <div className = "medias">
+                    <Media platform = "youtube" link = "http://youtube.com"/>
+                    <Media platform = "instagram" link = "http://instagram.com"/>
+                    <Media platform = "twitter" link = "http://twitter.com"/>
+                </div>
+                <div className = "paragraph">
+                </div>
             </div>
         </div>
     );
