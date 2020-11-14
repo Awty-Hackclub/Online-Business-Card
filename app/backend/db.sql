@@ -1,4 +1,4 @@
-CREATE TABLE BusinessCard;
+CREATE DATABASE BusinessCard;
 USE BusinessCard;
 CREATE TABLE Card (
     id VARCHAR(10) PRIMARY KEY,
