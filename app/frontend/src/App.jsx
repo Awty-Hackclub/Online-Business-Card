@@ -2,7 +2,6 @@ import './App.css';
 import Input from './Components/Input'
 import Title from './Components/Title'
 import Submit from './Components/Submit'
-import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Input platform="FaceBook"/>
         <Submit/>
       </div>
-      <Footer />
     </div>
   );
 }
