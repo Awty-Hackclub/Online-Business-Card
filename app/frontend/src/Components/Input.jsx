@@ -1,9 +1,7 @@
 import React from 'react'
 
-export default function Input() {
+export default function Input(props) {
     return(
-        <div>  
-          
-        </div>
+        <input>{props.platform}</input>
     )
 } 
