@@ -8,7 +8,7 @@ import Submit from './Components/Submit'
 function Card() {
     return (
         <div>
-            
+            <Title content="example" />
         </div>
     )
 }
