@@ -30,10 +30,25 @@
 }
 
 .footer {
+  margin-top: 30px;
+  padding: 15px;
+  box-sizing: border-box;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 50px;
   background-color: #373737;
   color: white;
+}
+
+.input {
+  width: 75%;
+  float: right;
+}
+
+.plat {
+  padding-top: 5px;
+  text-align: center;
+  width: 20%;
+  float: left;
 }

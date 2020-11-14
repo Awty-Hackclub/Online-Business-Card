@@ -4,8 +4,8 @@ export default function Input(props) {
     return(
         <div>
             <div className="label">
-                <label>{props.platform}</label>
-                <input></input>
+                <label className = "plat">{props.platform}</label>
+                <input className = "input"></input>
             </div>
         </div>
     )
