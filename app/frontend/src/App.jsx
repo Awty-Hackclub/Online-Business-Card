@@ -6,7 +6,10 @@ function App() {
   return (
     <div>
       <Title />
-      <Input/>
+      <Input platform="YouTube"/>
+      <Input platform="Instagram"/>
+      <Input platform="Twitter"/>
+      <Input platform="FaceBook"/>
     </div>
   );
 }
