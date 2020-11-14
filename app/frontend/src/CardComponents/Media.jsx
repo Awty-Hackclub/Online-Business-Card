@@ -8,8 +8,8 @@ export default function Media(props){
         return(
             <div>
                 <div className = "media">
-                    <img src={youtubeIcon} alt="youtube"/>
-                    <label>{props.link}</label>
+                    <img className="logo" src={youtubeIcon} alt="youtube"/>
+                    <label className="link">{props.link}</label>
                 </div>
             </div>
         )
@@ -17,8 +17,8 @@ export default function Media(props){
         return(
             <div>
                 <div className = "media">
-                    <img src={instagramIcon} alt="youtube"/>
-                    <label>{props.link}</label>
+                    <img className="logo"src={instagramIcon} alt="youtube"/>
+                    <label className="link">{props.link}</label>
                 </div>
             </div>
         )
@@ -26,8 +26,8 @@ export default function Media(props){
         return(
             <div>
                 <div className = "media">
-                    <img src={twitterIcon} alt="youtube"/>
-                    <label>{props.link}</label>
+                    <img className="logo" src={twitterIcon} alt="youtube"/>
+                    <label className="link">{props.link}</label>
                 </div>
             </div>
         )
@@ -35,7 +35,7 @@ export default function Media(props){
         return(
             <div>
                 <div className = "media">
-                    <label>{props.link}</label>
+                    <label className="link">{props.link}</label>
                 </div>
             </div>
         )

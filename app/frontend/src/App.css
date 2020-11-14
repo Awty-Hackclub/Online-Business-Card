@@ -166,6 +166,16 @@ input:focus {
   height: 50%
 }
 
+.logo {
+  float: left;
+  max-width: 40%;
+  height: auto;
+}
+
+.link {
+  float: middle;
+}
+
 .paragraph {
   border-radius: 15px;
   background-color: #3F3F3F;
