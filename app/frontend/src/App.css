@@ -17,6 +17,7 @@ body {
   margin: 20px 0 20px 0;
   box-sizing: border-box;
   padding: 10px;
+  padding-top: 12px;
 }
 
 .publish {
@@ -62,14 +63,18 @@ body {
   float: right;
   border-radius: 5px;
   background-color: #373737;
+  outline: none;
+  border: solid #19191a;
+  color: white;
+  transition: 0.2s;
 }
 
-.input:hover {
+.input:hover, input:focus {
   border: 2px solid white;
 }
 
 .plat {
-  padding-top: 5px;
+  padding-top: 2px;
   text-align: center;
   width: 20%;
   float: left;
