@@ -114,7 +114,7 @@ input:focus {
 .description {
   overflow-y: auto;
   resize: none;
-  height: 150px;
+  height: 50px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   outline: none;
