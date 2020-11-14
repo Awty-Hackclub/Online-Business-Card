@@ -1,5 +1,5 @@
 CREATE TABLE Card (
-    id VARCHAR(36) PRIMARY KEY,
+    id VARCHAR(10) PRIMARY KEY,
     title VARCHAR(50),
     youtube VARCHAR(2000),
     instagram VARCHAR(2000),
