@@ -3,8 +3,13 @@
   padding: 3em
 }
 
-.label {
-
+.label{
+  border-radius: 30px;
+  background-color:#373737;
+  color: white;
+  height: 50px;
+  width: 500px;
+  margin: 20px 0 20px 0;
 }
 
 .contain {
