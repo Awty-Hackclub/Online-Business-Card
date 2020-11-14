@@ -22,7 +22,7 @@ def create():
         "description": content["description"],
     }
     cursor.execute(
-        f"INSERT INTO Card VALUES ({data["id"]}, {data["title"]}, {data["youtube"]}, {data["instagram"]}, {data["twitter"]}, {data["facebook"]}, {data["description"]}"
+        f"INSERT INTO Card VALUES ({data["id"]}, {data["title"]}, {data["youtube"]}, {data["instagram"]}, {data["twitter"]}, {data["facebook"]}, {data["description"]})"
     )
 
 
