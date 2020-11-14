@@ -1,24 +1,30 @@
 import './App.css';
-import Input from './Components/Input'
-import Title from './Components/Title'
-import CompName from './Components/CompName'
-import Description from './Components/Description'
-import Submit from './Components/Submit'
+import HomeApp from './Routes/HomeApp'
+import Card from './Routes/Card'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Title content="Create your business card"/>
-      <div className = "contain">
-        <CompName/>
-        <Input platform="YouTube"/>
-        <Input platform="Instagram"/>
-        <Input platform="Twitter"/>
-        <Input platform="FaceBook"/>
-        <Description/>
-        <Submit/>
-      </div>
-    </div>
+    <Router>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/card">card</Link></li>
+      </ul>
+        <Switch>
+          <Route exact path="/">
+            <HomeApp/>
+          </Route>
+          <Route exact path="/card">
+            <Card/>
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
