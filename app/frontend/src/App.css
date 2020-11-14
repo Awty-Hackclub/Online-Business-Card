@@ -4,12 +4,14 @@
 }
 
 .label{
-  border-radius: 30px;
+  border-radius: 13px;
   background-color:#373737;
   color: white;
   height: 50px;
   width: 500px;
   margin: 20px 0 20px 0;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .contain {
@@ -17,6 +19,7 @@
 }
 
 .publish {
+  box-sizing: border-box;
   border-radius: 50px;
   border: none;
   background-color: #373737;
