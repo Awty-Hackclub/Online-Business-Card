@@ -1,2 +1,9 @@
 Our URL schema (example);
-localhost:8000/card?id=4f9zd13a42
+localhost:5000/card?id=4f9zd13a42
+
+Routes:
+
+To Create: 
+    localhost:5000/create (json posted through form)
+To Read:
+    localhosbt:500/card?id=[id]
