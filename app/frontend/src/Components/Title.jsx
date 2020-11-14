@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react"
 
-export default function Title() {
-    return(
-        <div>
-            
-        </div>
+function Title() {
+    return (
+        <header>
+          <h1 id="title">Create your business card</h1>
+        </header>
     )
 }
+
+export default Title
