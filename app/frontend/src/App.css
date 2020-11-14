@@ -133,7 +133,7 @@ body {
 
 .card{
   background-color: #373737;
-  height: 300px;
+  height: 340px;
   border-radius: 40px;
   width: 650px;
   text-align: center;
@@ -149,10 +149,24 @@ body {
 .media {
   background-color: #3F3F3F;
   border-radius: 10px;
-  height: 40px;
-  width: 53%;
+  height: 3em;
+  width: 350px;
   padding:0;
   margin-left: 40px;
   margin-bottom: 13px;
   box-sizing: border-box;
+}
+
+.medias {
+  float: left;
+  height: 50%
+}
+
+.paragraph {
+  border-radius: 15px;
+  background-color: #3F3F3F;
+  float: right;
+  height: 50%;
+  width: 170px;
+  margin-right: 40px;
 }
