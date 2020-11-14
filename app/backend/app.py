@@ -1,10 +1,17 @@
 from flask import Flask, request, jsonify
 import mysql.connector
 from mysql.connector import Error
-import db
 from nanoid import generate
 
 app = Flask(__name__)
+
+try:
+    db = mysql.connector.connect(host="localhost", database="BusinessCard", user="root")
+    if db.is_connected():
+        print("connection achieved!")
+    cursor = db.cursor()
+except Error as e:
+    print(f"error: {e}")
 
 
 @app.route("/create", methods=["POST"])
@@ -27,17 +34,6 @@ def create():
 @app.route("/card", methods=["GET"])
 def card():
     ...
-
-
-def connect():
-    try:
-        db = mysql.connector.connect(
-            host="localhost", database="BusinessCard", user="root"
-        )
-        if db.is_connected():
-            print("connection achieved!")
-    except Error as e:
-        print(f"error: {e}")
 
 
 if __name__ == "__main__":
