@@ -1,3 +1,4 @@
+CREATE TABLE BusinessCard;
 CREATE TABLE Card (
     id VARCHAR(10) PRIMARY KEY,
     title VARCHAR(50),
