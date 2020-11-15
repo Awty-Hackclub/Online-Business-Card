@@ -8,11 +8,21 @@ import Submit from "./Components/Submit";
 import {useForm} from 'react-hook-form'
 
 export default function App() {
-
   const {register, handleSubmit, errors } = useForm()
 
   const onSubmit = data  => {
+
     console.log(data);
+    axios.post('https://localhost:5000/create',
+      {
+        data: {
+            title: data.title,
+            youtube: data.youtube,
+            twitter: data.twitter,
+            facebook: data.facebook,
+            description: data.description
+        },
+    })
   }
 
   return (
