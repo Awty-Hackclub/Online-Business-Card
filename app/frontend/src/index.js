@@ -15,7 +15,7 @@ ReactDOM.render(
           <App />
         </Route>
         <Route exact path="/card">
-          <Card content="Another Company"/>
+          <Card content="Another Company" />
         </Route>
       </Switch>
     </BrowserRouter>
