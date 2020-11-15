@@ -140,6 +140,7 @@ input:focus {
   text-align: center;
   margin: auto;
   clear: both;
+  margin-top: 10%;
 }
 
 .name {
