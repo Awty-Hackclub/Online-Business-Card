@@ -12,8 +12,6 @@ export default function Card(props) {
           <Media link="http://instagram.com" />
           <Media link="http://twitter.com" />
           <Media link="http://facebook.com" />
-          <Media link="http://tiktok.com" />
-          <Media link="http://linkedin.com" />
         </div>
         <div className="paragraph">
           <p>
