@@ -3,6 +3,8 @@ body {
   zoom: 150%;
 }
 
+/* Making the card */
+
 .title {
   color: white;
   text-align: center;
@@ -82,6 +84,21 @@ body {
   transition: 0.2s;
 }
 
+/* This is the textarea */
+
+.description {
+  overflow-y: auto;
+  resize: none;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
 .input:hover,
 input:focus {
   border-radius: 5px;
@@ -97,6 +114,8 @@ input:focus {
   width: 20%;
   float: left;
 }
+
+/* CARD */
 
 .compName {
   overflow-y: auto;
@@ -114,16 +133,17 @@ input:focus {
   border: none;
 }
 
-.description {
-  overflow-y: auto;
-  resize: none;
-  height: 50px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  outline: none;
-  border: none;
-  text-align: center;
-  font-size: 20px;
+/* This is the class name in Card.jsx, the <p> tag 
+this is just for displaying purposes, it containes lorem ipsum*/
+
+.paragraph {
+  min-height: 0;
+  border-radius: 15px;
+  background-color: #3F3F3F;
+  float: right;
+  overflow: hidden;
+  width: 170px;
+  margin-right: 40px;
   color: white;
 }
 
@@ -147,6 +167,8 @@ input:focus {
   font-size: 50px;
   color: white;
 }
+
+/* Media */
 
 .media {
   background-color: #3f3f3f;
@@ -177,16 +199,6 @@ input:focus {
   float:left;
   margin-top: 10px;;
   margin-left: 50px;
-}
-
-.paragraph {
-  min-height: 0;
-  border-radius: 15px;
-  background-color: #3F3F3F;
-  float: right;
-  overflow: hidden;
-  width: 170px;
-  margin-right: 40px;
 }
 
 .youtube {
