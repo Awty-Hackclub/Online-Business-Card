@@ -5,21 +5,29 @@ import Title from "./Components/Title";
 import CompName from "./Components/CompName";
 import Description from "./Components/Description";
 import Submit from "./Components/Submit";
+import {useForm} from 'react-hook-form'
 
 export default function App() {
+
+  const {register, handleSubmit, errors } = useForm()
+
+  const onSubmit = data  => {
+    console.log(data);
+  }
+
   return (
     <div>
       <Title content="Create your business card" />
-      <form 
-    //   onSubmit={}
-      >
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div className="contain">
           <div>
             <textarea
               className="compName"
               placeholder="Company Name"
+              name="title"
               rows="3"
               maxLength="50"
+              ref={register}
             ></textarea>
           </div>
 
@@ -28,8 +36,10 @@ export default function App() {
               <label className="plat">Youtube</label>
               <input
                 className="input"
+                name="youtube"
                 placeholder="https://"
                 maxlenght="2000"
+              ref={register}
               ></input>
             </div>
           </div>
@@ -39,8 +49,10 @@ export default function App() {
               <label className="plat">Instagram</label>
               <input
                 className="input"
+                name="instagram"
                 placeholder="https://"
                 maxlenght="2000"
+              ref={register}
               ></input>
             </div>
           </div>
@@ -50,8 +62,10 @@ export default function App() {
               <label className="plat">Twitter</label>
               <input
                 className="input"
+                name="twitter"
                 placeholder="https://"
                 maxlenght="2000"
+                ref={register}
               ></input>
             </div>
           </div>
@@ -62,7 +76,9 @@ export default function App() {
               <input
                 className="input"
                 placeholder="https://"
+                name="facebook"
                 maxlenght="2000"
+              ref={register}
               ></input>
             </div>
           </div>
@@ -70,7 +86,9 @@ export default function App() {
             <textarea
               className="description"
               placeholder="Description"
+              name="description"
               maxLength="300"
+              ref={register}
             ></textarea>
           </div>
           <Submit />
