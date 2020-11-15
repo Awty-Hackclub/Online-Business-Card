@@ -16,6 +16,8 @@ export default function App() {
                 <Input platform="Instagram"/>
                 <Input platform="Twitter"/>
                 <Input platform="FaceBook"/>
+                <Input platform="TikTok"/>
+                <Input platform="LinkedIn"/>
                 <Description/>
                 <Submit/>
             </div>

@@ -223,6 +223,20 @@ input:focus {
   padding-left: 8px;
 }
 
+.tiktok {
+  float: left;
+  width: 41px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
+.linkedin {
+  float: left;
+  width: 43px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
 .img {
   float: left;
   width: 30px;

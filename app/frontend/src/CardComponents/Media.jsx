@@ -3,6 +3,8 @@ import youtubeIcon from '../img/youtube.svg'
 import instagramIcon from '../img/instagram.svg'
 import twitterIcon from '../img/twitter.svg'
 import facebookIcon from '../img/facebook.svg'
+import tiktokIcon from '../img/tiktok.svg'
+import linkedinIcon from '../img/linkedin.svg'
 
 export default function Media(props){
     if (props.link.includes('youtube.com')) {
@@ -57,7 +59,34 @@ export default function Media(props){
                 </a>
             </div>
         )
+    } else if (props.link.includes('tiktok.com')) {
+    return(
+        <div>
+            <a href={props.link} target="_blank">
+                <button className = "media">
+                    <div className = "img">
+                        <img className="tiktok" src={tiktokIcon} alt="tiktok"/>
+                    </div>
+                    <label className="link">TikTok</label>
+                </button>
+            </a>
+        </div>
+        )
+    } else if (props.link.includes('linkedin.com')) {
+    return(
+        <div>
+            <a href={props.link} target="_blank">
+                <button className = "media">
+                    <div className = "img">
+                        <img className="linkedin" src={linkedinIcon} alt="linkedin"/>
+                    </div>
+                    <label className="link">LinkedIn</label>
+                </button>
+            </a>
+        </div>
+        )
     }
+
     else {
         return(
             <div>

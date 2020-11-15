@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import Title from "../Components/Title";
 import Media from "../CardComponents/Media";
 
 export default function Card(props) {
@@ -13,6 +12,8 @@ export default function Card(props) {
           <Media link="http://instagram.com" />
           <Media link="http://twitter.com" />
           <Media link="http://facebook.com" />
+          <Media link="http://tiktok.com" />
+          <Media link="http://linkedin.com" />
         </div>
         <div className="paragraph">
           <p>
