@@ -143,6 +143,7 @@ input:focus {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.4s;
 }
 
 .name {
@@ -240,4 +241,12 @@ input:focus {
 .img {
   float: left;
   width: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 0 50px white;
+}
+
+::selection {
+  background: lightgray;
 }

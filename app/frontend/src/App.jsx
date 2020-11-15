@@ -10,7 +10,9 @@ export default function App() {
   return (
     <div>
       <Title content="Create your business card" />
-      <form onSubmit={}>
+      <form 
+    //   onSubmit={}
+      >
         <div className="contain">
           <div>
             <textarea
