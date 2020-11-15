@@ -6,6 +6,7 @@ import CompName from "./Components/CompName";
 import Description from "./Components/Description";
 import Submit from "./Components/Submit";
 import {useForm} from 'react-hook-form'
+import axios from 'axios'
 
 export default function App() {
   const {register, handleSubmit, errors } = useForm()
