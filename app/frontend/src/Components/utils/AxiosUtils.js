@@ -17,7 +17,7 @@ const Create = (object) => {
 const CardJson = (id) => {
     axios.get(f`/localhost:5000/card?iq=${id}`)
         .then(function (response) {
-
+            return response;
         })
 }
 
