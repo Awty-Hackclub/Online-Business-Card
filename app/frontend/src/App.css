@@ -183,6 +183,7 @@ input:focus {
 }
 
 .paragraph {
+  word-break: break-all;
   display: initial;
   color: white;
   padding: 10px;
@@ -190,7 +191,7 @@ input:focus {
   border-radius: 10px;
   background-color: #3f3f3f;
   float: right;
-  width: 170px;
+  width: 245px;
   margin-right: 40px;
 }
 
