@@ -7,7 +7,7 @@ export default function Submit(){
                 className="publish" 
                 type = "submit" 
                 value ="Publish"
-                >
+                href="localhost:3000/card">
             </input>
         </div>
     )

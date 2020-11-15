@@ -15,10 +15,7 @@ export default function Card(props) {
         </div>
         <div className="paragraph">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.{" "}
+          We are the Awty International School Hackathon Club (Awty Hackclub) that has been accepted and sponsored by a large non-profit, Hack Club. We prepare for and participate in hackathons. We cultivate new members' skills through side projects; said skills are then implemented in Hackathons. We aim to create a community of young developers and entrepreneurs; leveraging teamwork whilst doing so. Our club provides a medium for students to express creativity, elevate ingenuity, and learn skills that they can implement in their future careers.{" "}
           </p>
         </div>
       </div>
