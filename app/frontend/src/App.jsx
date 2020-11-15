@@ -5,17 +5,11 @@ import Title from "./Components/Title";
 import CompName from "./Components/CompName";
 import Description from "./Components/Description";
 import Submit from "./Components/Submit";
-import {useForm} from 'react-hook-form'
-import {Create} from './Components/utils/AxiosUtils'
+import { useForm } from 'react-hook-form'
+import { Create } from './Components/utils/AxiosUtils'
 
 export default function App() {
-  const {register, handleSubmit, errors } = useForm()
-
-  const onSubmit = data  => {
-
-    console.log(data);
-    Create(data);
-  }
+  const { register, handleSubmit, errors } = useForm()
 
   return (
     <div>
@@ -41,7 +35,7 @@ export default function App() {
                 name="youtube"
                 placeholder="https://"
                 maxlenght="2000"
-              ref={register}
+                ref={register}
               ></input>
             </div>
           </div>
@@ -54,7 +48,7 @@ export default function App() {
                 name="instagram"
                 placeholder="https://"
                 maxlenght="2000"
-              ref={register}
+                ref={register}
               ></input>
             </div>
           </div>
@@ -80,7 +74,7 @@ export default function App() {
                 placeholder="https://"
                 name="facebook"
                 maxlenght="2000"
-              ref={register}
+                ref={register}
               ></input>
             </div>
           </div>
