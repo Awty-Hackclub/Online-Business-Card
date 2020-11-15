@@ -183,7 +183,7 @@ input:focus {
 }
 
 .paragraph {
-  word-break: break-all;
+  text-align: justify;
   display: initial;
   color: white;
   padding: 10px;
