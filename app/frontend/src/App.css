@@ -131,17 +131,15 @@ input:focus {
   width: 0;
 }
 
-.space {
-  height: 40px;
-}
-
 .card {
+  overflow: auto;
   background-color: #373737;
-  height: 340px;
   border-radius: 40px;
   width: 650px;
+  padding-bottom: 15px;
   text-align: center;
   margin: auto;
+  clear: both;
 }
 
 .name {
@@ -153,27 +151,32 @@ input:focus {
 .media {
   background-color: #3f3f3f;
   border-radius: 10px;
-  height: 3em;
   width: 350px;
+  height: 48px;
   padding:0;
   margin-left: 40px;
   margin-bottom: 13px;
   box-sizing: border-box;
+  outline: none;
+  border: none;
+  transition: 0.4s;
+  color: white;
+}
+
+.media:hover {
+  background-color: white;
+  transform: translate(30px);
+  color: #3f3f3f;
 }
 
 .medias {
   float: left;
-  height: 50%
-}
-
-.logo {
-  float: left;
-  max-width: 40%;
-  height: auto;
 }
 
 .link {
-  float: middle;
+  float:left;
+  margin-top: 10px;;
+  margin-left: 50px;
 }
 
 .paragraph {
@@ -183,4 +186,37 @@ input:focus {
   height: 50%;
   width: 170px;
   margin-right: 40px;
+}
+
+.youtube {
+  float: left;
+  width: 50px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
+.instagram {
+  float: left;
+  width: 65px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.twitter {
+  float: left;
+  width: 40px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
+.facebook {
+  float: left;
+  width: 40px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
+.img {
+  float: left;
+  width: 30px;
 }

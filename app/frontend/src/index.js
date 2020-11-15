@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Card from "./Routes/Card";
-import BetterCard from "./CardComponents/Card";
+// import BetterCard from "./CardComponents/Card";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,9 +17,9 @@ ReactDOM.render(
         <Route exact path="/card">
           <Card content="Another Company" />
         </Route>
-        <Route exact path="/better-card">
+        {/* <Route exact path="/better-card">
           <BetterCard />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
