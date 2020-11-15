@@ -8,7 +8,7 @@ export default function Media(props){
     if (props.link.includes('youtube.com')) {
         return(
             <div>
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <button className = "media">
                         <div className = "img">
                             <img className="youtube" src={youtubeIcon} alt="youtube"/>
@@ -21,7 +21,7 @@ export default function Media(props){
     } else if (props.link.includes('instagram.com')) {
         return(
             <div>
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <button className = "media">
                         <div className = "img">
                             <img className="instagram"src={instagramIcon} alt="instagram"/>
@@ -34,7 +34,7 @@ export default function Media(props){
     } else if (props.link.includes('twitter.com')) {
         return(
             <div>
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <button className = "media">
                         <div className = "img">
                             <img className="twitter" src={twitterIcon} alt="twitter"/>
@@ -47,7 +47,7 @@ export default function Media(props){
     } else if (props.link.includes('facebook.com')) {
         return(
             <div>
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <button className = "media">
                         <div className = "img">
                             <img className="facebook" src={facebookIcon} alt="facebook"/>

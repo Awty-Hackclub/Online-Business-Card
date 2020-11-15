@@ -152,7 +152,7 @@ this is just for displaying purposes, it containes lorem ipsum*/
 }
 
 .card {
-  overflow: auto;
+  overflow-y: auto;
   background-color: #373737;
   border-radius: 40px;
   width: 650px;
@@ -160,6 +160,7 @@ this is just for displaying purposes, it containes lorem ipsum*/
   text-align: center;
   margin: auto;
   clear: both;
+  margin-top: 10%;
 }
 
 .name {
