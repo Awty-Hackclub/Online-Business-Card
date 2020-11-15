@@ -2,12 +2,17 @@ import React from 'react'
 import youtubeIcon from '../img/youtube.svg'
 import instagramIcon from '../img/instagram.svg'
 import twitterIcon from '../img/twitter.svg'
+import facebookIcon from '../img/facebook.svg'
+
+function clickOpen(props){
+    window.open(props.link)
+}
 
 export default function Media(props){
     if (props.link.includes('youtube.com')) {
         return(
             <div>
-                <button className = "media">
+                <button className = "media" onClick='clickOpen(props.link)'>
                     <div className = "img">
                         <img className="youtube" src={youtubeIcon} alt="youtube"/>
                     </div>
@@ -42,7 +47,7 @@ export default function Media(props){
             <div>
                 <button className = "media">
                     <div className = "img">
-                        <img className="facebook" src={twitterIcon} alt="facebook"/>
+                        <img className="facebook" src={facebookIcon} alt="facebook"/>
                     </div>
                     <label className="link">Facebook</label>
                 </button>

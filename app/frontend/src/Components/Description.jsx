@@ -7,7 +7,7 @@ export default function Description() {
             <textarea
                 className = "description" 
                 placeholder = "Description"
-                maxLength = "10000"
+                maxLength = "300"
             >
             </textarea>
         </div>

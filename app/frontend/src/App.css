@@ -180,10 +180,11 @@ input:focus {
 }
 
 .paragraph {
+  min-height: 0;
   border-radius: 15px;
   background-color: #3F3F3F;
   float: right;
-  height: 50%;
+  overflow: hidden;
   width: 170px;
   margin-right: 40px;
 }
@@ -192,7 +193,7 @@ input:focus {
   float: left;
   width: 50px;
   padding-top: 0px;
-  padding-left: 12px;
+  padding-left: 10px;
 }
 
 .instagram {
@@ -211,9 +212,9 @@ input:focus {
 
 .facebook {
   float: left;
-  width: 40px;
+  width: 47px;;
   padding-top: 0px;
-  padding-left: 12px;
+  padding-left: 8px;
 }
 
 .img {
