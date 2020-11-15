@@ -15,6 +15,7 @@ export default function Card(props) {
                     <Media link = "http://facebook.com"/>
                 </div>
                 <div className = "paragraph">
+                    DSAKDHJKSAGDSGHAKJDHLSADASSDASDSALKDJASLDJD
                 </div>
             </div>
         </div>

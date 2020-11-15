@@ -132,7 +132,7 @@ input:focus {
 }
 
 .card {
-  overflow: auto;
+  overflow-y: auto;
   background-color: #373737;
   border-radius: 40px;
   width: 650px;
@@ -180,12 +180,14 @@ input:focus {
   margin-left: 50px;
 }
 
-.paragraph {
-  min-height: 0;
-  border-radius: 15px;
+.paragraph{
+  display: initial;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
   background-color: #3F3F3F;
   float: right;
-  overflow: hidden;
   width: 170px;
   margin-right: 40px;
 }

@@ -15,11 +15,8 @@ ReactDOM.render(
           <App />
         </Route>
         <Route exact path="/card">
-          <Card content="Another Company" />
+          <Card content="Another Company"/>
         </Route>
-        {/* <Route exact path="/better-card">
-          <BetterCard />
-        </Route> */}
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
