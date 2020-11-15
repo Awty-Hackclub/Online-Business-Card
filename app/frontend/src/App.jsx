@@ -6,6 +6,7 @@ import CompName from "./Components/CompName";
 import Description from "./Components/Description";
 import Submit from "./Components/Submit";
 import {useForm} from 'react-hook-form'
+import {Create} from './Components/utils/AxiosUtils'
 
 export default function App() {
   const {register, handleSubmit, errors } = useForm()
@@ -13,16 +14,7 @@ export default function App() {
   const onSubmit = data  => {
 
     console.log(data);
-    axios.post('https://localhost:5000/create',
-      {
-        data: {
-            title: data.title,
-            youtube: data.youtube,
-            twitter: data.twitter,
-            facebook: data.facebook,
-            description: data.description
-        },
-    })
+    Create(data);
   }
 
   return (
