@@ -6,4 +6,4 @@ Routes:
 To Create: 
     localhost:5000/create (json posted through form)
 To Read:
-    localhosbt:500/card?id=[id]
+    localhost:500/card?id=[id]
